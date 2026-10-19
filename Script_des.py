@@ -1,0 +1,5 @@
+input_desimal = int(input("Masukkan angka desimal: "))
+biner = bin(input_desimal)
+hexa = hex(input_desimal)
+print(f"Desimal {input_desimal} ke Biner: {biner}")
+print(f"Desimal {input_desimal} ke Heksadesimal: {hexa}")
